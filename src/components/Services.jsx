@@ -11,14 +11,13 @@ export default function Services() {
       <h2 className="text-4xl font-semibold text-center mb-12 dark:text-white">
         How can we help?
       </h2>
-
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 px-6">
         {services.map((s, i) => (
           <div
             key={i}
             className="bg-white dark:bg-black p-8 rounded-2xl shadow hover:border-primary border"
           >
-            <img src={`./assets/${s.icon}`} className="h-10 mb-4" />
+            <img src={`/assets/person_icon.svg`} className="h-10 mb-4" />
             <h3 className="text-xl font-semibold dark:text-white">{s.title}</h3>
             <p className="mt-2 text-gray-500">
               We help you execute your plan and deliver results.
